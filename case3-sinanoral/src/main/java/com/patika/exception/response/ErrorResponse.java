@@ -18,6 +18,7 @@ public class ErrorResponse {
     private final int status;
     private final String message;
     private final Date date = new Date();
+    private final boolean success = false;
     private String stackTrace;
     private List<ValidationError> errors;
 
